@@ -1,0 +1,28 @@
+#ReactJS
+Muito utilizado para construções de SPAs(Single Pages Aplicatins)
+
+ Primeiro passo, instalaremos globalmente o pacote create-react-app 
+    Comand >> npm install -g create-react-app
+ Após instalar esse pacote teremos acesso ao seguinte comando:
+    Comand >> create-react-app
+
+- Entendendo a estrutura e os aruivos principais do createa-app:
+    public: 
+        * Nesta pasta estará todos os arquivos que será acessado pelo nosso usuario
+         final, porém não iremos encontrar arquivos como imagens, css e etc.
+         
+    src:
+        * Nesta pasta ficará todo o código da nossa aplicação
+
+    index.js:
+        * é o primeiro arquivo aberto pela nossa aplicação 
+        * é apartir dele que se inicia toda nossa aplicação
+
+    - Definicaçõ de Component:
+        * Basicamente o componente é um conjunto de parte:
+          * visual/estrutural ou seja a parte de html/JSX
+          * funcional, ou seja parte das funções e tratamento javascript
+          * estilização, ou seja a parte de css
+
+        * Sendo assim, só iremos criar um componente quando conseguirmos incapsular
+         esses três pontos em um trecho de código
