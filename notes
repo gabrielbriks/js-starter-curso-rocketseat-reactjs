@@ -18,7 +18,7 @@ Muito utilizado para construções de SPAs(Single Pages Aplicatins)
         * é o primeiro arquivo aberto pela nossa aplicação 
         * é apartir dele que se inicia toda nossa aplicação
 
-    - Definicaçõ de Component:
+    - Definição de Component:
         * Basicamente o componente é um conjunto de parte:
           * visual/estrutural ou seja a parte de html/JSX
           * funcional, ou seja parte das funções e tratamento javascript
@@ -26,3 +26,4 @@ Muito utilizado para construções de SPAs(Single Pages Aplicatins)
 
         * Sendo assim, só iremos criar um componente quando conseguirmos incapsular
          esses três pontos em um trecho de código
+
