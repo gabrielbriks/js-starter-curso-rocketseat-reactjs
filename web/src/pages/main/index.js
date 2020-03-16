@@ -21,7 +21,7 @@ export default class Main extends Component {
   };
 
   render() {
-    const { products } = this.state.products;
+    const { products } = this.state;
 
     return (
       <div className="product-list">
