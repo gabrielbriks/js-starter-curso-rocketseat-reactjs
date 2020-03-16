@@ -1,0 +1,13 @@
+.product-list{
+    max-width: 700px; /* para quando a tela for muito grandem ira ficar centralizado*/
+    margin: 20px auto 0; 
+    padding: 20px; /*Para quando for reduzida a pagina ele não ficar grudado nas laterais*/
+}
+
+.product-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px
+/*Min: 2:30*/
+}
