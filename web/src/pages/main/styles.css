@@ -3,11 +3,44 @@
     margin: 20px auto 0; 
     padding: 20px; /*Para quando for reduzida a pagina ele não ficar grudado nas laterais*/
 }
-
+/*Item of List*/
 .product-list article{
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px
-/*Min: 2:30*/
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+/*Paragrafo*/
+.product-list article p {
+    font-size: 16;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color:#da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list article a:hover {
+    background: #da552f;
+    color: #fff;
+    transition: all 0.3s; /* Adicionando a todos os efeitos um transição de 0.3 segunds */
+    
+
 }
