@@ -44,3 +44,40 @@
     
 
 }
+
+.product-list .actions{
+    display: flex;
+    justify-content: space-between; /*Para jogar um btn totalmente para a esquerda e o outro para direita*/
+    margin-bottom: 20px;
+    
+}
+
+.product-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hover incialmente com uma leve opacidade para diferenciar ao passar o mouse*/
+.product-list .actions button:hover {
+    opacity: 0.7;
+}
+
+/*Adicioando tratamento visual ao bnt de netxPage e prevPage conforme a prop disabled
+Sendo assim quando disabled == true; aplica o tratamento abaixo
+*/
+.product-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+/*Iremos forçar a opacidade de 0.5 quando o o button tiver como disabled == true*/
+.product-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
+
